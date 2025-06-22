@@ -1,0 +1,130 @@
+.container{
+    width: 92%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.container2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: gray;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+
+li{
+    list-style: none;
+    transition: .3s ease-in-out;
+}
+
+
+li:hover{
+    color: palevioletred;
+    cursor: pointer;
+}
+
+
+
+
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-left: 100px;
+}
+
+
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+
+.tagline{
+    font-size: 15px;
+    color: gray;
+    margin-top: -10px;
+}
+
+
+.gerald{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.btn{
+    width: 25%;
+    height: 50px;
+    font-size: 12px;
+    border-radius: 30px;
+    border: none;
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+    color: palevioletred;
+}
+
+
+.btn2{
+    width: 25%;
+    height: 50px;
+    font-size: 12px;
+    border-radius: 30px;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.btn2:hover{
+    background-color: pink;
+    color: whitesmoke;
+}
+
+
+
+.right{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    height: 750px;
+    width: 750px;
+}
